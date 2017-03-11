@@ -1,0 +1,39 @@
+.ng-valid[required], .ng-valid.required {
+  border-left: 5px solid #42A948;
+}
+
+.ng-invalid:not(form) {
+  border-left: 5px solid #a94442;
+}
+
+h4, small, .blockquote, .jumbotron {
+  color: white;
+}
+
+.background-image {
+  background-image: url('src/components/img/Yellow-Mosaic-Vector-Background.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.jumbotron {
+  background-image: url('src/components/img/rain_background.jpg');
+}
+
+span {
+  font-size: 250%;
+}
+
+#theCarousel img {
+  position: relative;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+
