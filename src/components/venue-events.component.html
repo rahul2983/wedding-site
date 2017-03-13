@@ -1,19 +1,26 @@
-<div class="container-fluid">
+<div class="container-fluid col-md-4">
   <div class="panel panel-primary">
-    <div class="panel-heading">
-      <h3 class="panel-title">Venue</h3>
-    </div>
+    <div class="panel-heading">Events</div>
     <div class="panel-body">
-      ISKON Temple, Juhu, Mumbai
-    </div>
-  </div>
-  <br />
-  <div class="panel panel-primary">
-    <div class="panel-heading">
-      <h3 class="panel-title">Events</h3>
-    </div>
-    <div class="panel-body">
-      Events
+      <p><strong>Shaadi (Wedding)</strong></p>
+      <p><strong>Start Time: </strong>6:00 pm</p>
+      <p><strong>End Time: </strong>8:30 pm</p>
+      <br />
+      <p><strong>Reception</strong></p>
+      <p><strong>Start Time: </strong>9:00 pm</p>
+      <p><strong>End Time: </strong>11:00 pm</p>
     </div>
   </div>
 </div>
+<!-- this creates a google map on the page with the given lat/lng from -->
+<!-- the component as the initial center of the map: -->
+<div class="container-fluid col-md-8">
+  <div class="panel panel-primary">
+    <div class="panel-heading">{{ title }}</div>
+    <div class="panel-body">
+      <sebm-google-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
+      <sebm-google-map-marker [latitude]="lat" [longitude]="lng"></sebm-google-map-marker></sebm-google-map>
+    </div>
+  </div>
+</div>
+
