@@ -3,7 +3,11 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'page-footer',
   template: `
-    <h1>Footer Section</h1>
+    <div class="row footer">
+      <div class="container-fluid">
+        <h4>Please do use the navigation above to find information on our story, the venue, events, and contact information</h4>
+      </div>
+    </div>
   `
 })
 export class PageFooterComponent {}

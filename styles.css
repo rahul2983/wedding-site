@@ -6,27 +6,62 @@
   border-left: 5px solid #a94442;
 }
 
-h4, small {
+body {
+   cursor: url('src/components/img/bb8_cursor.png'), auto;
+}
+
+h4, small, .blockquote {
   color: white;
 }
 
-.background-image {
+.sebm-google-map-container {
+  height: 300px;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-nav > li > a {
+    color: #747494;
+    font-size: 120%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-nav > li > a {
+    color: white;
+    font-size: 120%;
+  }
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.background-image-home {
   background-image: url('src/components/img/Star_Wars.jpg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  width: auto;
-  height: auto;
+  background-position: center;
+  max-width: auto;
+  min-width: 300px;
+}
+
+.background-image-venue {
+  background-image: url('src/components/img/cockpit.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: auto;
+  min-width: 300px;
 }
 
 span {
   font-size: 250%;
 }
 
-h1 {
+h1, h3 {
   text-align: center;
 }
 
-img
+.carousel-img
 {
     max-width: 100%;
     min-width: 300px;
@@ -41,4 +76,125 @@ img
   background-color: black;
 }
 
+.pageHeader {
+  background-color: rgba(167, 255, 0, 0.28);
+  color:  powderblue;
+}
 
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two);
+
+body{
+  font-family: 'Lobster Two', arial, serif;
+}
+
+.pageHeader {
+  font-size: 180%;
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .map-sizing {
+    margin-top: 50px;
+    margin-bottom: 70px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+p {
+  color: white;
+}
+
+.yoda {
+  width: 64px;
+  height: 64px;
+}
+
+/* CSS for the ticker*/
+#iFeatures {
+  /*background-color: rgba(167, 255, 0, 0.28);*/
+  /*background-color: rgba(115, 63, 121, 0.41);*/
+}
+.ticker {
+  left: 40px;
+  right: 10px;
+  padding-top: 10px;
+  overflow: hidden;
+  background-color: rgba(167, 255, 0, 0);
+}
+
+.ticker p {
+  position: relative;
+  white-space: nowrap;
+  color: white;
+  font-size: 80%;
+}
+
+@media only screen and (max-width: 768px) {
+   .video-player {
+    height: 25%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+   .video-player {
+    height: 65%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      padding-top: 35px;
+      height: 0;
+      overflow: hidden;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      padding-top: 75px;
+      height: 0;
+      overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .video-container video {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .video-container video {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+  }
+}
+
+.footer {
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .contactSection {
+    height: 240px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer {
+    height: 350px;
+  }
+}

@@ -14,6 +14,9 @@ import { HomeComponent } from './components/home.component';
 import { ContactUsComponent } from './components/contact-us.component';
 import { VenueEventsComponent } from './components/venue-events.component';
 import { OurStoryComponent } from './components/our-story-component';
+import { IntroVideoComponent } from './components/intro_video.component';
+
+import { tickerComponent } from './components/ticker.component';
 
 import { routing } from './app.routing';
 
@@ -34,7 +37,9 @@ import { routing } from './app.routing';
     HomeComponent,
     ContactUsComponent,
     VenueEventsComponent,
-    OurStoryComponent
+    OurStoryComponent,
+    tickerComponent,
+    IntroVideoComponent
     ],
   bootstrap: [AppComponent]
 })

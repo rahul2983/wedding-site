@@ -8,4 +8,5 @@ import { PageContentComponent } from './components/page-content.component';
     <page-content></page-content>
   `
 })
-export class AppComponent {}
+export class AppComponent{
+}
