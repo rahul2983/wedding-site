@@ -14,10 +14,18 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li role="presentation" class="homecolor" routerLink="/home" routerLinkActive="active"><a href="/home">Home</a></li>
-        <li role="presentation"><a routerLink="/ourStory" routerLinkActive="active">Our Story</a></li>
-        <li role="presentation"><a routerLink="/venueEvents" routerLinkActive="active">Venue & Events</a></li>
-       <li role="presentation"><a routerLink="/contact" routerLinkActive="active">Contact us</a></li>
+        <li role="presentation" data-toggle="collapse" data-target="#navbar-collapse-1.in">
+          <a routerLink="/home" routerLinkActive="active" href="/home">Home</a>
+        </li>
+        <li role="presentation" data-toggle="collapse" data-target="#navbar-collapse-1.in">
+          <a routerLink="/ourStory" routerLinkActive="active">Our Story</a>
+        </li>
+        <li role="presentation" data-toggle="collapse" data-target="#navbar-collapse-1.in">
+          <a routerLink="/venueEvents" routerLinkActive="active">Venue & Events</a>
+        </li>
+        <li role="presentation" data-toggle="collapse" data-target="#navbar-collapse-1.in">
+          <a routerLink="/contact" routerLinkActive="active">Contact us</a>
+        </li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -25,7 +33,7 @@
   <router-outlet></router-outlet>
 </nav>
 
-
+<!--class="homecolor"-->
 
 
 
