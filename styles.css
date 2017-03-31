@@ -6,8 +6,11 @@
   border-left: 5px solid #a94442;
 }
 
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two);
+
 body {
    cursor: url('src/components/img/bb8_cursor.png'), auto;
+   font-family: 'Lobster Two', arial, serif;
 }
 
 h4, small, .blockquote {
@@ -16,20 +19,6 @@ h4, small, .blockquote {
 
 .sebm-google-map-container {
   height: 300px;
-}
-
-@media only screen and (min-width: 768px) {
-  .navbar-nav > li > a {
-    color: #747494;
-    font-size: 120%;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .navbar-nav > li > a {
-    color: white;
-    font-size: 120%;
-  }
 }
 
 .navbar-brand {
@@ -81,25 +70,10 @@ h1, h3 {
   color:  powderblue;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Lobster+Two);
-
-body{
-  font-family: 'Lobster Two', arial, serif;
-}
-
 .pageHeader {
   font-size: 180%;
   color: white;
   text-align: center;
-}
-
-@media only screen and (min-width: 768px) {
-  .map-sizing {
-    margin-top: 50px;
-    margin-bottom: 70px;
-    margin-right: 10px;
-    margin-left: 10px;
-  }
 }
 
 p {
@@ -112,10 +86,6 @@ p {
 }
 
 /* CSS for the ticker*/
-#iFeatures {
-  /*background-color: rgba(167, 255, 0, 0.28);*/
-  /*background-color: rgba(115, 63, 121, 0.41);*/
-}
 .ticker {
   left: 40px;
   right: 10px;
@@ -131,56 +101,8 @@ p {
   font-size: 80%;
 }
 
-@media only screen and (max-width: 768px) {
-   .video-player {
-    height: 25%;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-   .video-player {
-    height: 65%;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .video-container {
-      position: relative;
-      padding-bottom: 56.25%;
-      padding-top: 35px;
-      height: 0;
-      overflow: hidden;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .video-container {
-      position: relative;
-      padding-bottom: 56.25%;
-      padding-top: 75px;
-      height: 0;
-      overflow: hidden;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .video-container video {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .video-container video {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 70%;
-  }
+.contact-details {
+  font-size: 120%;
 }
 
 .footer {
@@ -188,19 +110,64 @@ p {
 }
 
 @media only screen and (min-width: 768px) {
+  .navbar-nav > li > a {
+    color: #747494;
+    font-size: 120%;
+  }
+  .map-sizing {
+    margin-top: 50px;
+    margin-bottom: 70px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      padding-top: 75px;
+      height: 0;
+      overflow: hidden;
+  }
+  .video-container video {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+  }
   .contactSection {
     height: 240px;
   }
-}
-
-@media only screen and (min-width: 768px) {
   .footer {
     height: 350px;
   }
 }
 
 @media only screen and (max-width: 768px) {
+  .navbar-nav > li > a {
+    color: white;
+    font-size: 120%;
+  }
+  .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      padding-top: 35px;
+      height: 0;
+      overflow: hidden;
+  }
+  .video-container video {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
   .footer {
     height: 275px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .footer {
+    height: 400px;
   }
 }
