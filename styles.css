@@ -13,7 +13,7 @@ body {
   font-family: 'Lobster Two', arial, serif;
 }
 
-h4, small, .blockquote {
+h4, h3, small, .blockquote, .bulletPoints {
   color: white;
 }
 
@@ -98,7 +98,7 @@ p {
   font-size: 80%;
 }
 
-.contact-details {
+.contact-details .ourStoryText {
   font-size: 120%;
 }
 
@@ -128,7 +128,7 @@ p {
     height: 450px;
   }
   .contactSection {
-    height: 120px;
+    height: 135px;
   }
   .footer {
     height: 160px;
