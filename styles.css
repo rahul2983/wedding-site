@@ -9,8 +9,8 @@
 @import url(https://fonts.googleapis.com/css?family=Lobster+Two);
 
 body {
-   cursor: url('src/components/img/bb8_cursor.png'), auto;
-   font-family: 'Lobster Two', arial, serif;
+  cursor: url('src/components/img/bb8_cursor.png'), auto;
+  font-family: 'Lobster Two', arial, serif;
 }
 
 h4, small, .blockquote {
@@ -52,9 +52,9 @@ h1, h3 {
 
 .carousel-img
 {
-    max-width: 100%;
-    min-width: 300px;
-    height: auto;
+  max-width: 100%;
+  min-width: 300px;
+  height: auto;
 }
 
 .navbar-toggle {
@@ -68,9 +68,6 @@ h1, h3 {
 .pageHeader {
   background-color: rgba(167, 255, 0, 0.28);
   color:  powderblue;
-}
-
-.pageHeader {
   font-size: 180%;
   color: white;
   text-align: center;
@@ -121,24 +118,20 @@ p {
     margin-left: 10px;
   }
   .video-container {
-      position: relative;
-      padding-bottom: 56.25%;
-      padding-top: 75px;
-      height: 0;
-      overflow: hidden;
+    padding-top: 10px;
+    padding-left: 15%;
+    overflow: hidden;
   }
-  .video-container video {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 70%;
+  video {
+    object-fit: initial;
+    width: 85%;
+    height: 450px;
   }
   .contactSection {
-    height: 240px;
+    height: 120px;
   }
   .footer {
-    height: 350px;
+    height: 160px;
   }
 }
 
@@ -148,11 +141,11 @@ p {
     font-size: 120%;
   }
   .video-container {
-      position: relative;
-      padding-bottom: 56.25%;
-      padding-top: 35px;
-      height: 0;
-      overflow: hidden;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
   }
   .video-container video {
     position: absolute;
