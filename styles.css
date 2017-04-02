@@ -78,7 +78,7 @@ h1, h3 {
   font-size: 180%;
   color: white;
   text-align: center;
-  text-shadow: 4px 4px 6px;
+  text-shadow: 2px 2px 4px;
 }
 
 p {
@@ -171,6 +171,9 @@ p {
   }
   .footer {
     height: 275px;
+  }
+  .pageHeader p {
+    color: #243b4f;
   }
 }
 
