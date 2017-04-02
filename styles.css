@@ -106,7 +106,7 @@ p {
   font-size: 80%;
 }
 
-.contact-details .ourStoryText {
+.contact-details {
   font-size: 120%;
 }
 
@@ -140,13 +140,17 @@ p {
     height: 450px;
   }
   .contactSection {
-    height: 135px;
+    height: 440px;
   }
   .footer {
     height: 160px;
   }
   .carousel-caption p {
     font-size: 120%;
+  }
+  .ourStoryText p {
+    font-size: 125%;
+    color: #e6ab1a;
   }
 }
 
@@ -173,7 +177,11 @@ p {
     height: 275px;
   }
   .pageHeader p {
-    color: #243b4f;
+    color: #dcc620;
+  }
+  .ourStoryText p{
+    font-size: 110%;
+    color: #e6ab1a;
   }
 }
 

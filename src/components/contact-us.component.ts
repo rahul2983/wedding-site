@@ -11,23 +11,22 @@ export class ContactUsComponent {
 
   constructor() {
     this.firstContact = {
+      name: "Nachiket Shrivastav",
+      email: "nachiket.shrivastav@gmail.com",
+      phone: "9769087350"
+    };
+    this.secondContact = {
       name: "Aprajita Shrivastav",
       email: "aprajita.shrivastav@gmail.com",
       phone: "9619233496"
     };
-    this.secondContact = {
+    this.thirdContact = {
       name: "Rahul Verma",
       email: "rahul.uoa@gmail.com",
       phone: "9820655429"
     };
-    this.thirdContact = {
-      name: "Nachiket Shrivastav",
-      email: "nachiket.shrivastav@gmail.com",
-      phone: "9769087350"
-    }
   }
 }
-
 interface person {
   name: string;
   email: string;
