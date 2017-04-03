@@ -14,7 +14,7 @@ export class VenueEventsComponent {
 
   constructor() {
     this.venue = {
-      name: "ISKON Juhu",
+      name: "ISKCON Juhu",
       addressline1: "Sri Sri Radha Rasabihari Temple",
       addressline2: "Hare Krishna Land",
       street: "Juhu Church Road",
