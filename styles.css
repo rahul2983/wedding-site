@@ -26,7 +26,7 @@ h4, h3, small, .blockquote, .bulletPoints {
 }
 
 .background-image-home {
-  background-image: url('src/components/img/Star_Wars.jpg');
+  background-image: url('src/components/img/Star_Wars_copy.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -78,16 +78,10 @@ h1, h3 {
   font-size: 180%;
   color: white;
   text-align: center;
-  text-shadow: 2px 2px 4px;
 }
 
 p {
   color: white;
-}
-
-.yoda {
-  width: 64px;
-  height: 64px;
 }
 
 /* CSS for the ticker*/
@@ -120,8 +114,18 @@ p {
 
 @media only screen and (min-width: 768px) {
   .navbar-nav > li > a {
-    color: #f48540;
+    color: white;
     font-size: 120%;
+  }
+  .navbar-nav > li > a:hover {
+    background-color: green;
+  }
+  .navbar-nav > li > a:visited {
+    background-color: green;
+  }
+  .yoda {
+    width: 64px;
+    height: 64px;
   }
   .map-sizing {
     margin-top: 50px;
@@ -143,14 +147,17 @@ p {
     height: 440px;
   }
   .footer {
-    height: 160px;
+    height: 180px;
   }
   .carousel-caption p {
     font-size: 120%;
   }
   .ourStoryText p {
     font-size: 125%;
-    color: #e6ab1a;
+    color: #ffd672;
+  }
+  .pageHeader p {
+    color: #dcc618;
   }
 }
 
@@ -158,6 +165,10 @@ p {
   .navbar-nav > li > a {
     color: white;
     font-size: 120%;
+  }
+  .yoda {
+    width: 48px;
+    height: 48px;
   }
   .video-container {
     position: relative;
@@ -176,12 +187,15 @@ p {
   .footer {
     height: 275px;
   }
+  .footerFontSize {
+    font-size: 80%;
+  }
   .pageHeader p {
-    color: #6a5e00;
+    color: #dcc618;
   }
   .ourStoryText p{
     font-size: 110%;
-    color: #e6ab1a;
+    color: #ffd672;
   }
 }
 

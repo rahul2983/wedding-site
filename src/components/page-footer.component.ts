@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   template: `
     <div class="row footer">
       <div class="container-fluid">
-        <h4>Please do use the navigation above to find information on our story, the venue, events, and contact information</h4>
+        <h4 class="footerFontSize">Please do use the navigation above to find information on our story, the venue, events, and contact information</h4>
       </div>
     </div>
   `

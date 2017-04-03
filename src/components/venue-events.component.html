@@ -12,6 +12,10 @@
         <strong>Start Time: </strong>9:00 pm<br />
         <strong>End Time: </strong>11:00 pm<br />
       </p>
+      <br />
+      <h4><u>Venue:</u> {{ venue.name }}</h4>
+      <p>{{ venue.addressline1 }}, {{ venue.addressline2 }}, {{ venue.street }}</p>
+      <p>{{ venue.county }}, {{ venue.city }}, {{ venue.state }} - {{ venue.zipCode }}, {{ venue.country }}</p>
     </div>
     <!-- this creates a google map on the page with the given lat/lng from -->
     <!-- the component as the initial center of the map: -->
@@ -19,10 +23,5 @@
       <sebm-google-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
       <sebm-google-map-marker [latitude]="lat" [longitude]="lng"></sebm-google-map-marker></sebm-google-map>
     </div>
-  </div>
-  <div>
-    <h4><u>Venue:</u> {{ venue.name }}</h4>
-    <p>{{ venue.addressline1 }}, {{ venue.addressline2 }}, {{ venue.street }}</p>
-    <p>{{ venue.county }}, {{ venue.city }}, {{ venue.state }} - {{ venue.zipCode }}, {{ venue.country }}</p>
   </div>
 </div>
