@@ -105,11 +105,20 @@ p {
 }
 
 .carousel-caption p {
-  color: #2ef1d9;
+  color: yellow;
 }
 
 .footer {
   text-align: center;
+}
+
+.contactUSFont p {
+  color:  #ffd672;
+  font-size: 120%;
+}
+
+.venueEventsFont p {
+  color:  #ffd672;
 }
 
 @media only screen and (min-width: 768px) {
@@ -192,10 +201,14 @@ p {
   }
   .pageHeader p {
     color: #dcc618;
+    font-size: 80%
   }
   .ourStoryText p{
     font-size: 110%;
     color: #ffd672;
+  }
+  .ticker p {
+    font-size: 60%;
   }
 }
 
