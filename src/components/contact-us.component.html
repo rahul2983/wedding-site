@@ -1,39 +1,31 @@
-<div class="container-fluid col-md-4">
-  <div class="panel panel-primary">
-    <div class="panel-heading">RSVP Details</div>
-    <div class="panel-body">
-      <p>We will be thrilled to have you over to join the festivies.</p>
-      <p>CLICK <button class="btn btn-default"><a href="https://www.facebook.com/events/111809079350535/"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span></a></button> to <strong>RSVP</strong> on Facebook</p>
-      <p>Use the information on this page to reach out to us as well.</p>
-    </div>
+<div class="contactUSFont">
+  <div class="col-md-4">
+    <h4><i>RSVP Details</i></h4>
+    <p>
+      The <i>Vermas</i> and the <i>Shrivastavs</i> hope to have you grace them with your presence at the wedding. <br />
+      CLICK <button class="btn btn-default"><a href="https://www.facebook.com/events/268243613628915/?ti=icl"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span></a></button> to <strong><i>RSVP</i></strong> on Facebook<br />
+    </p>
+    <br />
   </div>
+  <div class="col-md-4">
+    <h4><i>Contact Details</i></h4>
+    <p>
+      <strong>Name: {{ firstContact.name }}</strong><br /><strong>Email: </strong>{{ firstContact.email }}<br /><strong>Phone: </strong>{{ firstContact.phone }}<br /><br />
+      <strong>Name: {{ secondContact.name }}</strong><br /><strong>Email: </strong>{{ secondContact.email }}<br /><strong>Phone: </strong>{{ secondContact.phone }}<br /><br />
+      <strong>Name: {{ thirdContact.name }}</strong><br /><strong>Email: </strong>{{ thirdContact.email }}<br /><strong>Phone: </strong>{{ thirdContact.phone }}
+    </p>
+    <br />
+  </div>
+  <div class="col-md-4">
+    <h4><i>About the Families</i></h4>
+    <p>
+      The bride <i>Aprajita Shrivastav</i>, currently based in San Francisco, USA is the daughter or Mr. Kedar Prasad and Mrs. Rita Prasad (both based in Mumbai) and sister of Mr. Nachiket Shrivastav.
+    </p>
+    <p>
+      The groom <i>Rahul Verma</i>, also currently based in San Francisco, USA is the son of Mr. Yogendra Prasad Verma and Mrs. Kumkum Verma (both based in Mumbai) and brother of Mrs. Tanvi Verma.
+      </p>
+  </div>
+</div>
+<div class="row contactSection">
+</div>
 
-</div>
-<div class="container-fluid col-md-4">
-  <div class="panel panel-primary">
-    <!-- Default panel contents -->
-    <div class="panel-heading">Contact Details</div>
-    <div class="panel-body">
-      <p><strong>Aprajita Shrivastav</strong><br /><strong>Email: </strong>aprajita.shrivastav@gmail.com<br /><strong>Phone: </strong>9619233496</p>
-      <p><strong>Rahul Verma</strong><br /><strong>Email: </strong>rahul.uoa@gmail.com<br /><strong>Phone: </strong>9820655429</p>
-      <p><strong>Nachiket Shrivastav</strong><br /><strong>Email: </strong>nachiket.shrivastav@gmail.com<br /><strong>Phone: </strong>9769087350</p>
-    </div>
-  </div>
-</div>
-<div class="container-fluid col-md-4">
-  <div class="panel panel-primary">
-    <div class="panel-heading">Questions or Feedback</div>
-    <div class="panel-body">
-      <form action="mailto:rahul.uoa@gmail.com" method="post" enctype="text/plain">
-        Name:<br>
-        <input type="text" name="name"><br><br>
-        E-mail:<br>
-        <input type="text" name="mail"><br><br>
-        Comment:<br>
-        <input type="text" name="comment" size="50%"><br><br>
-        <input type="submit" class="btn btn-primary" value="Send">
-        <input type="reset" class="btn btn-secondary" value="Reset">
-      </form>
-    </div>
-  </div>
-</div>

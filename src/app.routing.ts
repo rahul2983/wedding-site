@@ -3,11 +3,10 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { PageContentComponent } from './components/page-content.component';
 import { HomeComponent } from './components/home.component';
-import { CarouselComponent } from './components/carousel.component';
-import { AboutUsComponent } from './components/about-us.component';
-import { VenueEventsComponent } from './components/venue-events.component';
 import { ContactUsComponent } from './components/contact-us.component';
-import { GoogleMapsComponent } from './components/google-maps.component';
+import { VenueEventsComponent } from './components/venue-events.component';
+
+import { OurStoryComponent } from './components/our-story-component';
 
 const appRoutes: Routes = [
   {
@@ -18,8 +17,8 @@ const appRoutes: Routes = [
     component: HomeComponent
   },
   {
-    path: 'storyInPictures',
-    component: CarouselComponent
+    path: 'ourStory',
+    component: OurStoryComponent
   },
   {
     path: 'venueEvents',
@@ -28,10 +27,6 @@ const appRoutes: Routes = [
   {
     path: 'contact',
     component: ContactUsComponent
-  },
-  {
-    path: 'location',
-    component: GoogleMapsComponent
   }
 ]
 

@@ -1,19 +1,29 @@
-<div class="container-fluid">
-  <div class="panel panel-primary">
-    <div class="panel-heading">
-      <h3 class="panel-title">Venue</h3>
+<div class="container-fluid background-image-venue venueEventsFont">
+  <div class="row">
+    <div class="col-md-3">
+      <h4><i>Events</i></h4>
+      <p>
+        <strong>Shaadi (Wedding)</strong><br />
+        <strong>Date: </strong>19<sup>th</sup> April, 2017<br />
+        <strong>Start Time: </strong>6:00 pm<br />
+        <strong>End Time: </strong>8:30 pm<br />
+      </p>
+      <p>
+        <strong>Reception</strong><br />
+        <strong>Date: </strong>19<sup>th</sup> April, 2017<br />
+        <strong>Start Time: </strong>9:00 pm<br />
+        <strong>End Time: </strong>11:00 pm<br />
+      </p>
+      <br />
+      <h4><i>Venue:</i> {{ venue.name }}</h4>
+      <p>{{ venue.addressline1 }}, {{ venue.addressline2 }}, {{ venue.street }}</p>
+      <p>{{ venue.county }}, {{ venue.city }}, {{ venue.state }} - {{ venue.zipCode }}, {{ venue.country }}</p>
     </div>
-    <div class="panel-body">
-      ISKON Temple, Juhu, Mumbai
-    </div>
-  </div>
-  <br />
-  <div class="panel panel-primary">
-    <div class="panel-heading">
-      <h3 class="panel-title">Events</h3>
-    </div>
-    <div class="panel-body">
-      Events
+    <!-- this creates a google map on the page with the given lat/lng from -->
+    <!-- the component as the initial center of the map: -->
+    <div class="col-md-4 map-sizing">
+      <sebm-google-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
+      <sebm-google-map-marker [latitude]="lat" [longitude]="lng"></sebm-google-map-marker></sebm-google-map>
     </div>
   </div>
 </div>

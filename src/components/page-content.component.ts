@@ -1,8 +1,6 @@
 import { Component } from  '@angular/core';
 
 import { NavigationComponent } from './navigation.component';
-import { PageHeaderComponent } from './page-header.component';
-import { PageBodyComponent } from './page-body.component';
 import { PageFooterComponent } from './page-footer.component';
 
 @Component({

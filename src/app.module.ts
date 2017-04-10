@@ -2,20 +2,21 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AgmCoreModule } from 'angular2-google-maps/core';
+import { CarouselModule } from 'ng2-bootstrap';
 
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './components/navigation.component';
 import { PageContentComponent } from './components/page-content.component';
 import { PageHeaderComponent } from './components/page-header.component';
-import { PageBodyComponent } from './components/page-body.component';
 import { PageFooterComponent } from './components/page-footer.component';
 
 import { HomeComponent } from './components/home.component';
-import { CarouselComponent } from './components/carousel.component';
-import { AboutUsComponent } from './components/about-us.component';
-import { VenueEventsComponent } from './components/venue-events.component';
 import { ContactUsComponent } from './components/contact-us.component';
-import { GoogleMapsComponent } from './components/google-maps.component';
+import { VenueEventsComponent } from './components/venue-events.component';
+import { OurStoryComponent } from './components/our-story-component';
+import { IntroVideoComponent } from './components/intro_video.component';
+
+import { tickerComponent } from './components/ticker.component';
 
 import { routing } from './app.routing';
 
@@ -24,21 +25,21 @@ import { routing } from './app.routing';
     routing,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyAYoI_tkSjBumBihVLUAdP-mnzPOp0RjIU'
-    })
+    }),
+    CarouselModule.forRoot()
   ],
   declarations: [
     AppComponent,
     NavigationComponent,
     PageContentComponent,
     PageHeaderComponent,
-    PageBodyComponent,
     PageFooterComponent,
     HomeComponent,
-    CarouselComponent,
-    AboutUsComponent,
-    VenueEventsComponent,
     ContactUsComponent,
-    GoogleMapsComponent
+    VenueEventsComponent,
+    OurStoryComponent,
+    tickerComponent,
+    IntroVideoComponent
     ],
   bootstrap: [AppComponent]
 })
